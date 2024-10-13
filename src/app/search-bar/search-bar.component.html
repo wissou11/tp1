@@ -1,0 +1,11 @@
+<div id="formu">
+  <label for="">Brand</label>
+  <input type="text" id="make" #make>
+  <button (click)="searchAutoList(make.value)">Search</button>
+</div>
+<div *ngIf="result">
+  <div *ngFor="let auto of result">
+    <p>{{ auto.model }}</p>
+    <button (click)="selectAuto(auto)">View</button>
+  </div>
+</div>

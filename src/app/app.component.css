@@ -1,0 +1,31 @@
+
+.autos{
+  display: flex;
+  justify-content: space-between;
+}
+.details{
+  width: 500px;
+  display: flex;               /* Use flexbox for alignment */
+  flex-direction: column;
+}
+.titre{
+  color: rgb(70, 139, 151);
+}
+hr{
+  color: rgb(70, 139, 151);
+  width: 500px;
+}
+.details .info{
+  margin-left: auto;
+  margin-top: auto;
+}
+.details .titre{
+  margin-bottom: auto;
+}
+.d
+img {
+  width: 100%;       /* Make the image take up the full width of its container */
+  height: auto;      /* Maintain aspect ratio */
+  display: block;    /* Prevents any space below the image */
+}
+
